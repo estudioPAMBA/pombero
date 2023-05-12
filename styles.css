@@ -1,0 +1,53 @@
+body {
+    background-image: url("./PomberoYaraBanner0.webp");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: aqua;
+  }
+  
+  .logo,
+  .tituloWeb,
+  .botones {
+    padding: 1rem;
+  }
+  
+  .logo {
+    justify-self: start;
+  }
+  
+  .tituloWeb {
+    justify-self: center;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      justify-items: center;
+    }
+  
+    .botones {
+      justify-content: center;
+    }
+  }
+  
