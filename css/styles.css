@@ -92,7 +92,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  justify-items: center;
+/*   justify-items: center; */
 }
 
 .equipo-grid-item img {
@@ -161,5 +161,12 @@ footer {
     background: rgba(0, 0, 0, 0.5);
     padding: 8px;
     max-width: 100%;
+  }
+
+  .equipo-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  /*   justify-items: center; */
   }
 }
