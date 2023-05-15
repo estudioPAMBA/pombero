@@ -31,10 +31,33 @@ body {
   justify-self: center;
 }
 
-.botones {
+.navbar-menu-lista {
   display: flex;
   justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
 }
+
+.navbar-menu-lista li {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navbar-menu-lista a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(45, 45, 45, 0.9);
+  color: rgb(93, 169, 182);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-menu-lista a:hover {
+  background-color: rgba(65, 65, 65, 0.8);
+  color: rgb(93, 169, 182);
+}
+
 
 /* Estilos para el grid principal */
 .grid-container {
