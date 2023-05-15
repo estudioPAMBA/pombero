@@ -109,6 +109,11 @@ body {
 .equipo-container {
   background: rgba(65, 65, 65, 0.8);
   padding: 20px;
+  background-image: url("../media/PomberoYaraBanner0.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
 }
 
 .equipo-grid-container {
@@ -116,6 +121,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 /*   justify-items: center; */
+background: rgba(65, 65, 65, 0.8);
+padding: 1rem;
 }
 
 .equipo-grid-item img {
