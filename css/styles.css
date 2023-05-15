@@ -150,6 +150,25 @@ footer {
   color: white;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  display: inline-block;
+  margin: 1rem;
+  color: white;
+  font-size: 20px;
+}
+
+
+.social-icon:hover {
+  color: rgb(93, 169, 182);
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
   .navbar {
