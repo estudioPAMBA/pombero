@@ -65,8 +65,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas:
-      "grid-item-b grid-item-b grid-item-a grid-item-a"
-      "grid-item-b grid-item-b grid-item-a grid-item-a"
+      "grid-item-a grid-item-a grid-item-b grid-item-b"
+      "grid-item-a grid-item-a grid-item-b grid-item-b"
       "grid-item-d grid-item-d grid-item-c grid-item-c"
       "grid-item-d grid-item-d grid-item-c grid-item-c";
   grid-gap: 20px;
