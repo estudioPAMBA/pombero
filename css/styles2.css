@@ -47,13 +47,15 @@ footer p {
 }
 
 .first-header .social-icons a {
-    margin-right: 0.5rem;
+    margin: 0 0.25rem;
     padding: 0 0.3rem;
 }
 
 .first-header .social-icons i {
     color: #ffffff;
     transition: transform 0.3s;
+    text-align: center;
+
 }
 
 .first-header .social-icons i:hover {
