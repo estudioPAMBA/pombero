@@ -80,7 +80,7 @@ div[class^="bloque-"] {
             "bloque-4"
             "bloque-5"
             "bloque-6";
-
+            margin: auto;
     }
     
 }
