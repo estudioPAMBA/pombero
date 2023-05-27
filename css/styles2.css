@@ -230,6 +230,7 @@ footer {
 
     .second-header .title {
         border-radius: 0;
+        margin-top: -0.3rem;
         padding: 2rem 1rem;
         background-color: rgba(0, 0, 0, 0.7);
         border: 0.2px solid rgba(155, 155, 155, 0.301);
@@ -239,7 +240,7 @@ footer {
     /* Estilos del banner */
     #banner {
         position:relative ;
-        top: -10rem;
+        
         
     }
 
