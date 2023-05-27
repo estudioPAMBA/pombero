@@ -1,0 +1,197 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Nova Mono', monospace;
+}
+
+/* Estilos del header */
+
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.first-header .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.first-header .social-icons a {
+    margin-right: 0.5rem;
+    padding: 0 0.3rem;
+}
+
+.first-header .social-icons i {
+    color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.first-header .social-icons i:hover {
+    transform: scale(1.25);
+    color: aqua;
+}
+
+.first-header p {
+    margin: 0.3rem;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+    padding: 0 0.5rem;
+    z-index: 9999;
+}
+
+.second-header .logo img {
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border: 1px solid rgba(155, 155, 155, 0.5);
+    transition: transform 0.3s, border-color 1s;
+}
+
+.second-header .logo img:hover {
+    transform: scale(1.25);
+    border-color: aqua;
+}
+
+.second-header .title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border: 0.2px solid rgba(155, 155, 155, 0.301);
+    max-height: 3rem;
+}
+
+.second-header .title h1 {
+    color: #00ffffc0;
+}
+
+.second-header .title .logo-pombero {
+    max-height: 2.5rem;
+    margin: 0 1rem;
+}
+
+.second-header .navbar ul,
+.second-header .navbar li {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.second-header .navbar li {
+    margin: 0 10px;
+    transition: transform 1s;
+}
+
+.second-header .navbar li:hover {
+    transform: scale(1);
+}
+
+.second-header .navbar a {
+    text-decoration: none;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border: 0.3px solid rgba(155, 155, 155, 0.5);
+    padding: 0.3rem 1rem;
+    transition: transform 1s, border-color 1s;
+}
+
+.second-header .navbar a:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Estilos del banner */
+#banner {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../media/PomberoYaraBanner0.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos del bloque #0 */
+#bloque-0 {
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Estilos del main */
+/* Usando los estilos en documentos aparte */
+
+main li {
+    padding: 0.5rem 0;
+}
+
+/* Estilos del footer */
+footer {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
+    width: 100vw;
+}
+
+.social-icons i {
+    color: #ffffff;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons i:hover {
+    color: #ffffff;
+    transform: scale(1.25);
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos adicionales para la página */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

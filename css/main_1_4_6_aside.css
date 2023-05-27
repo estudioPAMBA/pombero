@@ -1,0 +1,68 @@
+/* Estilos del main */
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        ". bloque-1 bloque-1 bloque-1 ."
+        ". bloque-2 bloque-2 bloque-2 ."
+        ". bloque-3 bloque-3 bloque-3 ."
+        ". bloque-4 bloque-4 bloque-4 ."
+        ". bloque-5 bloque-5 bloque-5 ."
+        ". bloque-6 bloque-6 bloque-6 .";
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: #d1d1d180;
+    padding: 10px;
+}
+
+.bloque-1 {
+    grid-area: bloque-1;
+    animation: fade-in 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloque-2 {
+    grid-area: bloque-2;
+    animation: fade-in 1s ease-in-out;
+}
+
+.bloque-3 {
+    grid-area: bloque-3;
+    animation: fade-in 1s ease-in-out;
+}
+
+.bloque-4 {
+    grid-area: bloque-4;
+    animation: fade-in 1s ease-in-out;
+}
+
+.bloque-5 {
+    grid-area: bloque-5;
+    animation: fade-in 1s ease-in-out;
+}
+
+.bloque-6 {
+    grid-area: bloque-6;
+    animation: fade-in 1s ease-in-out;
+}
+
+div[class^="bloque-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgba(93, 169, 182, 0.5);*/
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    border-bottom: 1px solid #1a1a1a3c;
+    
+    /*min-height: 150px;*/
+}

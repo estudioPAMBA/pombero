@@ -1,0 +1,61 @@
+/* Estilos del main */
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "bloque-1 bloque-1 bloque-2 bloque-2 aside"
+        "bloque-3 bloque-3 bloque-4 bloque-4 aside"
+        "bloque-5 bloque-5 bloque-6 bloque-6 aside"
+        "bloque-7 bloque-7 bloque-8 bloque-8 aside";
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: rgba(93, 169, 182, 0.5);
+    padding: 10px;
+}
+
+.bloque-1 {
+    grid-area: bloque-1;
+}
+
+.bloque-2 {
+    grid-area: bloque-2;
+}
+
+.bloque-3 {
+    grid-area: bloque-3;
+}
+
+.bloque-4 {
+    grid-area: bloque-4;
+}
+
+.bloque-5 {
+    grid-area: bloque-5;
+}
+
+.bloque-6 {
+    grid-area: bloque-6;
+}
+
+.bloque-7 {
+    grid-area: bloque-7;
+}
+
+.bloque-8 {
+    grid-area: bloque-8;
+}
+
+div[class^="bloque-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(93, 169, 182, 0.5);
+    color: #ffffff;
+    animation: fade-in 1s ease-in-out;
+    min-height: 150px;
+}

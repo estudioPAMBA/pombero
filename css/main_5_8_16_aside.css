@@ -1,0 +1,97 @@
+/* Estilos del main */
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "bloque-1 bloque-1 bloque-2 bloque-2 aside"
+        "bloque-3 bloque-3 bloque-4 bloque-4 aside"
+        "bloque-5 bloque-5 bloque-6 bloque-6 aside"
+        "bloque-7 bloque-7 bloque-8 bloque-8 aside"
+        "bloque-9 bloque-9 bloque-10 bloque-10 aside"
+        "bloque-11 bloque-11 bloque-12 bloque-12 aside"
+        "bloque-13 bloque-13 bloque-14 bloque-14 aside"
+        "bloque-15 bloque-15 bloque-16 bloque-16 aside";
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: rgba(93, 169, 182, 0.5);
+    padding: 10px;
+}
+
+.bloque-1 {
+    grid-area: bloque-1;
+}
+
+.bloque-2 {
+    grid-area: bloque-2;
+}
+
+.bloque-3 {
+    grid-area: bloque-3;
+}
+
+.bloque-4 {
+    grid-area: bloque-4;
+}
+
+.bloque-5 {
+    grid-area: bloque-5;
+}
+
+.bloque-6 {
+    grid-area: bloque-6;
+}
+
+.bloque-7 {
+    grid-area: bloque-7;
+}
+
+.bloque-8 {
+    grid-area: bloque-8;
+}
+
+.bloque-9 {
+    grid-area: bloque-9;
+}
+
+.bloque-10 {
+    grid-area: bloque-10;
+}
+
+.bloque-11 {
+    grid-area: bloque-11;
+}
+
+.bloque-12 {
+    grid-area: bloque-12;
+}
+
+.bloque-13 {
+    grid-area: bloque-13;
+}
+
+.bloque-14 {
+    grid-area: bloque-14;
+}
+
+.bloque-15 {
+    grid-area: bloque-15;
+}
+
+.bloque-16 {
+    grid-area: bloque-16;
+}
+
+div[class^="bloque-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(93, 169, 182, 0.5);
+    color: #ffffff;
+    animation: fade-in 1s ease-in-out;
+    min-height: 150px;
+}
