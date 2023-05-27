@@ -9,7 +9,11 @@ body {
     text-align: left;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Nova Mono', monospace;
 }
 
@@ -20,6 +24,7 @@ p {
 footer p {
     text-align: center;
 }
+
 /* Estilos del header */
 
 .first-header {
@@ -30,7 +35,7 @@ footer p {
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 9999;
 }
 
@@ -154,7 +159,7 @@ footer p {
     border-radius: 8px;
     padding: 20px;
     color: #ffffff;
-    
+
 }
 
 /* Estilos del main */
@@ -205,14 +210,22 @@ footer {
 }
 
 
-@media  (max-width: 780px) {
+@media (max-width: 780px) {
     .second-header .logo {
         display: none;
     }
+
+    .first-header {
+        /* position: relative; */
+        background-color: black;
+    }
+
     .second-header {
         width: 100%;
         flex-direction: column;
         padding: 0;
+        position: relative;
+
     }
 
     .second-header .title {
@@ -221,6 +234,13 @@ footer {
         background-color: rgba(0, 0, 0, 0.7);
         border: 0.2px solid rgba(155, 155, 155, 0.301);
 
+    }
+
+    /* Estilos del banner */
+    #banner {
+        position:relative ;
+        top: -10rem;
+        
     }
 
 }

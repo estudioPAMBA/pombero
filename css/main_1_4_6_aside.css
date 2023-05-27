@@ -83,4 +83,9 @@ div[class^="bloque-"] {
             margin: auto;
     }
     
+    div[class^="bloque-"] {
+        justify-content: inherit;
+
+    }
+    
 }
