@@ -1,15 +1,29 @@
-// Obtener todas las imágenes de la galería
-const galleryItems = document.querySelectorAll('.gallery-item');
-
-// Agregar evento de clic a cada imagen
-galleryItems.forEach(item => {
-  item.addEventListener('click', () => {
-    // Remover la clase 'expanded' de todas las imágenes
-    galleryItems.forEach(item => {
-      item.classList.remove('expanded');
+document.addEventListener('DOMContentLoaded', function() {
+    var galleryItems = document.querySelectorAll('.gallery-item');
+  
+    galleryItems.forEach(function(item) {
+      var img = item.querySelector('img');
+      var overlay = item.querySelector('.image-overlay');
+  
+      img.addEventListener('click', function(event) {
+        event.stopPropagation();
+        overlay.style.display = 'flex';
+      });
+  
+      overlay.addEventListener('click', function(event) {
+        event.stopPropagation();
+        overlay.style.display = 'none';
+      });
     });
-
-    // Agregar la clase 'expanded' a la imagen clickeada
-    item.classList.add('expanded');
+  
+    document.addEventListener('click', function() {
+      var overlays = document.querySelectorAll('.image-overlay');
+      overlays.forEach(function(overlay) {
+        overlay.style.display = 'none';
+      });
+    });
   });
-});
+
+
+
+  

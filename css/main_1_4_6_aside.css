@@ -67,3 +67,20 @@ div[class^="bloque-"] {
     
     /*min-height: 150px;*/
 }
+
+
+@media  (max-width: 780px) {
+
+    main {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "bloque-1"
+            "bloque-2"
+            "bloque-3"
+            "bloque-4"
+            "bloque-5"
+            "bloque-6";
+
+    }
+    
+}

@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5 {
     font-family: 'Nova Mono', monospace;
 }
 
+p {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
 /* Estilos del header */
 
 .first-header {
@@ -195,4 +202,25 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+
+@media  (max-width: 780px) {
+    .second-header .logo {
+        display: none;
+    }
+    .second-header {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .second-header .title {
+        border-radius: 0;
+        padding: 2rem 1rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 0.2px solid rgba(155, 155, 155, 0.301);
+
+    }
+
 }
