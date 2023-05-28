@@ -71,6 +71,20 @@ div[class^="bloque-"] {
     /*min-height: 150px;*/
 }
 
+div[class^="bloque-"] img {
+    /* width: 100%;
+    border-radius: 8px; */
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s;
+}
+
+div[class^="bloque-"] img:hover {
+    transform: scale(0.95);
+}
+
+.icono_miniatura {
+    width: 2.5rem;
+}
 
 @media  (max-width: 780px) {
 

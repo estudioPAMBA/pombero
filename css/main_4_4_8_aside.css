@@ -9,6 +9,11 @@ main {
     padding: 10px;
 }
 
+main img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 .aside {
     grid-area: aside;
     background-color: rgba(93, 169, 182, 0.5);
@@ -61,12 +66,20 @@ div[class^="bloque-"] {
     
 }
 
-main img {
-    width: 100%;
+div[class^="bloque-"] img {
+    /* width: 100%;
+    border-radius: 8px; */
     margin-bottom: 0.5rem;
-    border-radius: 8px;
+    transition: transform 0.3s;
 }
 
+div[class^="bloque-"] img:hover {
+    transform: scale(0.95);
+}
+
+.icono_miniatura {
+    width: 2.5rem;
+}
 
 @media  (max-width: 780px) {
 

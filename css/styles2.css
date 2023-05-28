@@ -182,7 +182,6 @@ footer p {
     border-radius: 8px;
     padding: 20px;
     color: #ffffff;
-
 }
 
 /* Estilos del main */
@@ -191,6 +190,7 @@ footer p {
 main li {
     padding: 0.5rem 0;
 }
+
 
 /* Estilos del footer */
 footer {
@@ -212,6 +212,8 @@ footer {
     color: #ffffff;
     transform: scale(1.25);
 }
+
+
 
 @keyframes fade-in {
     0% {
