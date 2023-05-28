@@ -213,6 +213,51 @@ main ul {
     padding-inline-start: 1rem;
 }
 
+.caja__contacto {
+    display: flex;
+    align-items: center;
+  }
+  
+  .columna__imagen {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .imagen__ajustada {
+    max-width:5rem;
+    height: auto;
+  }
+  
+  .columna__redes {
+    flex: 1;
+  }
+  
+  .redes__sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .redes__sociales li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .redes__sociales li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .redes__sociales li a i {
+    margin-right: 5px;
+  }
 
 /* Estilos del footer */
 footer {
