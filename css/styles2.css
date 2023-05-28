@@ -196,10 +196,10 @@ main li {
 footer {
     display: block;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     background-color: rgb(22, 22, 22);
     color: #ffffff;
-    width: 100vw;
+    width: 100%;
 }
 
 .social-icons i {
