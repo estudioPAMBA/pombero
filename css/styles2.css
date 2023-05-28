@@ -133,6 +133,11 @@ footer p {
     margin: 0 1rem;
 }
 
+.second-header .navbar ul {
+    position:relative ;
+    top: 0;
+}
+
 .second-header .navbar ul,
 .second-header .navbar li {
     display: flex;
@@ -153,9 +158,9 @@ footer p {
 .second-header .navbar a {
     text-decoration: none;
     color: aqua;
-    background-color: rgba(0, 0, 0, 0.7);
+    background: rgba(65, 65, 65, 0.8);
     border-radius: 8px;
-    border: 0.3px solid rgba(155, 155, 155, 0.5);
+    border: 0.3px solid rgba(155, 155, 155, 0.2);
     padding: 0.3rem 1rem;
     transition: transform 1s, border-color 1s;
 }
@@ -256,6 +261,11 @@ footer {
         padding: 0;
         position: relative;
 
+    }
+
+    .second-header .navbar ul {
+        position: relative;
+        top: 10px;
     }
 
     .second-header .title {
