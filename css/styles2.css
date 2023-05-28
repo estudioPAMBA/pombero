@@ -38,15 +38,15 @@ footer p {
     align-items: center;
     justify-content: center;
     z-index: 9999;
-  }
-  
-  .floating-square a {
+}
+
+.floating-square a {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-  }
-  
+}
+
 .first-header {
     display: flex;
     justify-content: space-between;
@@ -98,6 +98,7 @@ footer p {
     padding: 0 0.5rem;
     z-index: 9999;
 }
+
 
 .second-header .logo img {
     width: 50px;
@@ -261,9 +262,9 @@ footer {
 
     /* Estilos del banner */
     #banner {
-        position:relative ;
-        
-        
+        position: relative;
+
+
     }
 
 }
