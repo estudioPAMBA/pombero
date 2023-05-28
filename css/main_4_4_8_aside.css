@@ -1,13 +1,10 @@
 /* Estilos del main */
 main {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "bloque-1 bloque-1 bloque-2 bloque-2 aside"
-        "bloque-3 bloque-3 bloque-4 bloque-4 aside"
-        "bloque-5 bloque-5 bloque-6 bloque-6 aside"
-        "bloque-7 bloque-7 bloque-8 bloque-8 aside";
+        ". bloque-1 bloque-1 ."
+        ". bloque-2 bloque-2 .";
     grid-gap: 10px;
     padding: 10px;
 }
@@ -20,6 +17,8 @@ main {
 
 .bloque-1 {
     grid-area: bloque-1;
+    display: flex;
+    flex-direction: column;
 }
 
 .bloque-2 {
@@ -54,8 +53,16 @@ div[class^="bloque-"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(93, 169, 182, 0.5);
-    color: #ffffff;
+/*     background-color: rgba(116, 116, 116, 0.5);
+ */    color: #1a1a1a;
     animation: fade-in 1s ease-in-out;
     min-height: 150px;
+    flex-direction: column;
+    
+}
+
+main img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
 }
