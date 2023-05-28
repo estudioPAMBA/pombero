@@ -69,7 +69,7 @@ div[class^="bloque-"] {
 div[class^="bloque-"] img {
     /* width: 100%;
     border-radius: 8px; */
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0;
     transition: transform 0.3s;
 }
 
@@ -77,8 +77,14 @@ div[class^="bloque-"] img:hover {
     transform: scale(0.95);
 }
 
+.titulo__seccion {
+    display: flex;
+    align-items: center;
+    }
+
 .icono_miniatura {
     width: 2.5rem;
+    margin: 0 1rem!important;
 }
 
 @media  (max-width: 780px) {

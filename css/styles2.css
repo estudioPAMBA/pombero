@@ -189,6 +189,11 @@ footer p {
 
 main li {
     padding: 0.5rem 0;
+    list-style: none; 
+}
+
+main ul {
+    padding-inline-start: 1rem;
 }
 
 
