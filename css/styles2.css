@@ -181,14 +181,25 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* Estilos del bloque #0 */
-#bloque-0 {
+  }
+  
+  /* Estilos del bloque #0 */
+  #bloque-0 {
     border-radius: 8px;
     padding: 20px;
     color: #ffffff;
-}
+  }
+  
+  /* Estilos de la imagen */
+  #imagen {
+    width: 500px;
+    height: 270px;
+    background-image: url('../img/logoJuego-transparente.webp');
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease;
+  }
+  
 
 /* Estilos del main */
 /* Usando los estilos en documentos aparte */
@@ -285,5 +296,10 @@ footer {
 
 
     }
+
+      /* Estilos de la imagen */
+  #imagen {
+    display: none;
+  }
 
 }
