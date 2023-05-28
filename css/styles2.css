@@ -118,14 +118,14 @@ footer p {
     align-items: center;
     margin: 0;
     padding: 0.1rem 1rem;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(75, 37, 75, 0.616);
     border-radius: 8px;
     border: 0.2px solid rgba(155, 155, 155, 0.301);
     max-height: 3rem;
 }
 
 .second-header .title h1 {
-    color: #00ffffc0;
+    color: white;
 }
 
 .second-header .title .logo-pombero {
@@ -158,8 +158,8 @@ footer p {
 
 .second-header .navbar a {
     text-decoration: none;
-    color: aqua;
-    background: rgba(65, 65, 65, 0.8);
+    color: white;
+    background-color: rgba(75, 37, 75, 0.616);
     border-radius: 8px;
     border: 0.3px solid rgba(155, 155, 155, 0.2);
     padding: 0.3rem 1rem;
@@ -167,7 +167,7 @@ footer p {
 }
 
 .second-header .navbar a:hover {
-    color: #ffffff;
+    color: aqua;
     border-color: #ffffff;
 }
 
