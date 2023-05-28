@@ -267,6 +267,7 @@ footer {
     .second-header .navbar ul {
         position: relative;
         top: 3rem;
+        left: 0;
     }
 
     .second-header .title {
