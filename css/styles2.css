@@ -136,6 +136,7 @@ footer p {
 .second-header .navbar ul {
     position:relative ;
     top: 0;
+    left: -10%;
 }
 
 .second-header .navbar ul,
@@ -265,7 +266,7 @@ footer {
 
     .second-header .navbar ul {
         position: relative;
-        top: 10px;
+        top: 3rem;
     }
 
     .second-header .title {

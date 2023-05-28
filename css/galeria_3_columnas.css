@@ -48,6 +48,26 @@
   .image-overlay p {
     color: #fff;
   }
+
+  .galeria_2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .galeria_2-item {
+    position: relative;
+  }
+  
+  .galeria_2-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .galeria_2-item p {
+    margin-top: 5px;
+    text-align: center;
+  }
   
   @media  (max-width: 780px) {
 
@@ -84,4 +104,8 @@
         border-radius: 0;
     }
 
+    .galeria_2 {
+      grid-template-columns: 1fr;
+    }
+  
   }
