@@ -107,5 +107,15 @@
     .galeria_2 {
       grid-template-columns: 1fr;
     }
+
+    .galeria_2-item {
+      text-align: center;
+    }
+    .galeria_2-item img {
+      width: 80%;
+      height: auto;
+      border-radius: 100%;    
+      
+    }
   
   }
