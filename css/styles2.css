@@ -229,7 +229,13 @@ main ul {
     max-width:5rem;
     height: auto;
   }
+
+  .imagen__ajustada2 {
+    max-width:10rem;
+    height: auto;
+  }
   
+
   .columna__redes {
     flex: 1;
   }
